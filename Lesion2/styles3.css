@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+.Container{
+    border-radius: 4px;
+    background-color: azure;
+    width: 550px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Container .Form input{
+    width: 90%;
+    height: 36px;
+    text-align: center;
+}
+
+
+
+.Form{
+    border: 1px solid #777575;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+
+}
+.Form button{
+    background-color: rgb(140, 226, 154); width: 80px; height: 40px; border-radius: 10px;
+}
+.Form h3{
+    text-align: left;
+    font-size: 16px;
+    margin-left: 25px;
+}
