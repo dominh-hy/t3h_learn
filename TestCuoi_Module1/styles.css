@@ -1,0 +1,71 @@
+.header{
+    background-color: #82cfd4;
+}
+
+/* thanh menu */
+.menuu .item img{
+    width: 50px;
+    height: 50px;
+}
+
+.menuu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1e080;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.item img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.item p {
+    margin: 0;
+}
+
+.item ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item ul li {
+    margin-right: 20px;
+}
+
+.item ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.item button {
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 5px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+/* phân trang */
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
