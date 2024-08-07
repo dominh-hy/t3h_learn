@@ -2,6 +2,65 @@
     background-color: #82cfd4;
 }
 
+/* menu trái */
+.side_bar_left {
+    width: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.side_bar_left nav p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.side_bar_left .menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side_bar_left .menu li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.side_bar_left .menu li label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.side_bar_left .menu li input[type="checkbox"] {
+    margin-right: 8px;
+    accent-color: #009688;
+}
+
+.side_bar_left button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #e0f7fa;
+    color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+.side_bar_left button:hover {
+    background-color: #b2ebf2;
+}
+
+
+
 /* thanh menu */
 .menuu .item img{
     width: 50px;
