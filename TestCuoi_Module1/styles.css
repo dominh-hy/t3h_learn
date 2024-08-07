@@ -206,4 +206,7 @@
     float: left;
     padding: 8px 16px;
     text-decoration: none;
+    border: solid;
+    border-radius: 5px;
+    margin: 5px;
   }
