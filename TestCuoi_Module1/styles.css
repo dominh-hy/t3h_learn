@@ -6,7 +6,7 @@
 .product-grid .product img{
     width: 250px;
     hyphens: 250px;
-    border: #333 solid;
+    border: #333 solid 1px;
 }
 
 .product-grid .product p {
@@ -206,7 +206,7 @@
     float: left;
     padding: 8px 16px;
     text-decoration: none;
-    border: solid;
+    border: solid 1px;
     border-radius: 5px;
     margin: 5px;
   }
