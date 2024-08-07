@@ -210,3 +210,36 @@
     border-radius: 5px;
     margin: 5px;
   }
+
+  /* Foooter */
+  .shop-info {
+    background-color: #fff4cc;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.shop-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.shop-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.shop-address, .shop-phone {
+    display: flex;
+    align-items: center;
+}
+
+.shop-address::before, .shop-phone::before {
+    content: '';
+    margin-right: 5px;
+}
